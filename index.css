@@ -1,0 +1,62 @@
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(216 234 251 / 50%);
+    background-blend-mode: lighten;
+    margin-bottom: 0px; 
+}
+
+h1 {
+    margin-left: 300px;
+    width: 780px;
+    font-size: 75px;
+}
+
+li{
+    font-size: 35px;
+}
+
+section, main {
+    background-color: white;
+    width: 1000px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    margin: 0 0 0 150px;
+}
+
+h2{
+   font-size: 35px;
+   padding: 10px 15px 10px 15px;
+}
+
+#one{
+    padding: 10px 0 0 250px;
+}
+
+#two{
+    padding: 10px 0 0 85px;
+}
+
+#requirements{
+    padding: 10px 0 0 125px;
+}
+
+#four {
+    padding: 10px 0 0 140px;
+}
+
+#five {
+    padding: 10px 0 0 250px;
+}
+
+#k400{
+    padding: 10px 0 0 300px;
+}
+
+#six{
+    padding: 10px 0 0 350px;
+}
+
+p {
+    font-size: 30px;
+    padding: 8px 10px 8px 10px;
+}
