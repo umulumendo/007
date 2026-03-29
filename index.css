@@ -2,7 +2,10 @@ body {
     font-family: "Oswald", sans-serif;
     background-color: rgb(216 234 251 / 50%);
     background-blend-mode: lighten;
-    margin-bottom: 0px; 
+    margin: auto; 
+    width: 1366px ;
+    height: 639px;
+    align-content: center;
 }
 
 h1 {
@@ -67,6 +70,7 @@ footer{
     color: #D8EAFB;
     align-content: center;
     margin: 10px 0 0 0;
+
 }
 
 
