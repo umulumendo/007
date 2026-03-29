@@ -6,7 +6,8 @@ body {
 }
 
 h1 {
-    margin-left: 300px;
+    align-content: center;
+    margin: auto;
     width: 780px;
     font-size: 75px;
 }
@@ -18,45 +19,67 @@ li{
 section, main {
     background-color: white;
     width: 1000px;
-    margin-bottom: 100px;
     border-radius: 10px;
-    margin: 0 0 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 50px 50px 50px 150px;
+}
+
+a{
+    color: black;
+
+}
+
+.tenor-gif-embed{
+     align-content: center;
+    margin: auto;
 }
 
 h2{
    font-size: 35px;
    padding: 10px 15px 10px 15px;
+   align-content: center;
+   margin: auto;
 }
 
-#one{
-    padding: 10px 0 0 250px;
+h3{
+    font-size: 35px;
+    text-align: center;
 }
 
-#two{
-    padding: 10px 0 0 85px;
-}
-
-#requirements{
-    padding: 10px 0 0 125px;
-}
-
-#four {
-    padding: 10px 0 0 140px;
-}
-
-#five {
-    padding: 10px 0 0 250px;
-}
-
-#k400{
-    padding: 10px 0 0 300px;
-}
-
-#six{
-    padding: 10px 0 0 350px;
-}
 
 p {
     font-size: 30px;
-    padding: 8px 10px 8px 10px;
+    padding: 10px;
+}
+
+span{
+    color: Red;
+}
+
+.money{
+    color: #38b000;
+}
+
+footer{
+    background-color: black;
+    color: #D8EAFB;
+    align-content: center;
+    margin: 10px 0 0 0;
+}
+
+
+.fa-brands{
+    font-size: 7em;
+    color: #D8EAFB;
+}
+
+.fa-regular{
+    font-size: 1em;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
 }
