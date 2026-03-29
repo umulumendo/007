@@ -26,7 +26,8 @@ section, main {
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin: 50px 50px 50px 150px;
+    margin: 50px auto;
+    
 }
 
 a{
