@@ -71,7 +71,9 @@ footer{
     color: #D8EAFB;
     align-content: center;
     margin: 10px 0 0 0;
-
+    position: sticky;
+bottom: 0;
+padding: 1em 1em calc(1em + env(safe-area-inset-bottom))
 }
 
 
