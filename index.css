@@ -19,7 +19,7 @@ li{
 
 section, main {
     background-color: white;
-    width: 1000px;
+
     border-radius: 10px;
     display: flex;
     flex-direction: column;
