@@ -3,8 +3,6 @@ body {
     background-color: rgb(216 234 251 / 50%);
     background-blend-mode: lighten;
     margin: auto; 
-    width: 1366px ;
-    height: 639px;
     align-content: center;
 }
 
@@ -88,7 +86,7 @@ div{
     justify-content: space-around;
 }
 
-@media screen and (width:392px){
+@media screen and (width >= 392px){
 
 body {
     font-family: "Oswald", sans-serif;
