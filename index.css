@@ -71,9 +71,6 @@ footer{
     color: #D8EAFB;
     align-content: center;
     margin: 10px 0 0 0;
-    position: sticky;
-bottom: 0;
-padding: 1em 1em calc(1em + env(safe-area-inset-bottom))
 }
 
 
@@ -89,4 +86,97 @@ padding: 1em 1em calc(1em + env(safe-area-inset-bottom))
 div{
     display: flex;
     justify-content: space-around;
+}
+
+@media all and (width:392px){
+
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(216 234 251 / 50%);
+    background-blend-mode: lighten;
+    margin: auto; 
+    width: 1366px ;
+    height: 639px;
+    align-content: center;
+}
+
+h1 {
+    align-content: center;
+    margin: auto;
+    width: 780px;
+    font-size: 75px;
+}
+
+li{
+    font-size: 35px;
+}
+
+section, main {
+    background-color: white;
+    width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 50px auto;
+    
+}
+
+a{
+    color: black;
+
+}
+
+.tenor-gif-embed{
+     align-content: center;
+    margin: auto;
+}
+
+h2{
+   font-size: 35px;
+   padding: 10px 15px 10px 15px;
+   align-content: center;
+   margin: auto;
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+p {
+    font-size: 30px;
+    padding: 10px;
+}
+
+span{
+    color: Red;
+}
+
+.money{
+    color: #38b000;
+}
+
+footer{
+    background-color: black;
+    color: #D8EAFB;
+    align-content: center;
+    margin: 10px 0 0 0;
+}
+
+
+.fa-brands{
+    font-size: 7em;
+    color: #D8EAFB;
+}
+
+.fa-regular{
+    font-size: 1em;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+}
 }
